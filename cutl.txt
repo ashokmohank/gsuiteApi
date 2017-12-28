@@ -1,0 +1,5 @@
+GET https://sheets.googleapis.com/v4/spreadsheets/1AlyKlc6utfT6ppmagGGqJe8lO8j0_889zMRXkMxrenk?includeGridData=true&ranges=Sheet1!A1%3AC3&fields=sheets(data(rowData(values(userEnteredValue(formulaValue%2CnumberValue%2CstringValue)))%2CstartColumn%2CstartRow))%2CspreadsheetId%2CspreadsheetUrl&key={YOUR_API_KEY}
+
+fields: sheets(data(rowData(values(userEnteredValue(formulaValue,numberValue,stringValue))),startColumn,startRow)),spreadsheetId,spreadsheetUrl
+
+email html design : https://beefree.io
